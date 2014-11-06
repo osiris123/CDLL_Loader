@@ -18,11 +18,11 @@ String Conversion is used to convert byte to string.
 
 Usage Example
 --------------
-	CDLL_Loader dll;
-	DWORD Pid = dll.GetProcessIdByName("cmd.exe");
+	CDLL_Loader loader;
+	DWORD Pid = loader.GetProcessIdByName("cmd.exe");
 
 	std::cout << "Cmd.exe PID:  " << Pid << std::endl;
 
-	if (dll.InitDLL(Pid, "c://dll3.dll") == INIT_OK) {
+	if (loader.InitDLL(Pid, "c://dll3.dll") == INIT_OK) {
 		std::cout << "DLL Injected Succesfully!" << std::endl;
 	}
