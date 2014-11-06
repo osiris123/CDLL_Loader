@@ -1,24 +1,23 @@
 /* =========================================================
- * DLL_Loader.h												*
- * **********************************************************
- *															*
- * Class: CDLL_Loader										*
- *															*
- * Author:  Dan Revah										*
- * Email:   danrevah@hotmail.com							*
- *															*
- * Date:	25/11/2011 (DD/MM/YYYY)							*
- * Last Update: 4/12/2011									*
- * Version: 1.1												*	
- *															*
- * (-!-) User-mode root (DLL Hooking)						*
- * Information Sources:										*
- * http://www.codeproject.com/KB/threads/winspy.aspx		*
- *															*
- * (---) Update 1.1 (4/12/2011):							*
- * Added enum for errors and created more functions to		*
- * handle the class	like object-oriented class shoule be.	*
- * ======================================================== */
+ * DLL_Loader.h												
+ * *********************************************************
+ *															
+ * Class: CDLL_Loader										
+ *															
+ * Author:  Dan Revah										
+ *															
+ * Date:	25/11/2011 (DD/MM/YYYY)							
+ * Last Update: 4/12/2011									
+ * Version: 1.1													
+ *															
+ * (-!-) User-mode root (DLL Hooking)						
+ * Information Sources:										
+ * http://www.codeproject.com/KB/threads/winspy.aspx		
+ *															
+ * (---) Update 1.1 (4/12/2011):							
+ * Added enum for errors and created more functions to		
+ * handle the class	like object-oriented class shoule be.	
+ * ======================================================= */
 #ifndef _DLL_LOADER_H_
 #define _DLL_LOADER_H_
 
@@ -51,7 +50,7 @@ public:
 
 	DLL_Results InitDLL(DWORD Pid,  char* DllPath); // Initilazing the DLL
 	DLL_Results InjectDll(); // Injecting the dll into the process
-	//DLL_Results EjectDll(); // Ejecting the dll from the process
+	DLL_Results EjectDll(); // Ejecting the dll from the process
 
 private:
 	DWORD ThreadTeminationStatus; // the handle to the of the newly loaded dll
