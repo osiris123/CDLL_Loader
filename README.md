@@ -1,4 +1,4 @@
-DLL Loader/DLL Injections in C++ for Windows
+DLL Loader / DLL Injections in C++ for Windows
 ==============
 
 Intro
