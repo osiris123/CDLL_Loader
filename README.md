@@ -1,9 +1,10 @@
-DLL Loader in C++ for Windows
+DLL Loader/DLL Injections in C++ for Windows
 ==============
 
 Intro
 --------------
 I wrote this project back in 2011 when I was playing a bit with DLL Injections.
+The class is used to Inject DLL's into running process in Windows.
 
 There are 4 files in this project
 - CDLL_Loader.cpp
