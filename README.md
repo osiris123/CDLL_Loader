@@ -14,3 +14,15 @@ There are 4 files in this project
 
 CDLL_Loader has methods to Load and Eject DLL from running process.
 String Conversion is used to convert byte to string.
+
+
+Usage Example
+--------------
+	CDLL_Loader dll;
+	DWORD Pid = dll.GetProcessIdByName("cmd.exe");
+
+	std::cout << "Cmd.exe PID:  " << Pid << std::endl;
+
+	if (dll.InitDLL(Pid, "c://dll3.dll") == INIT_OK) {
+		std::cout << "DLL Injected Succesfully!" << std::endl;
+	}
