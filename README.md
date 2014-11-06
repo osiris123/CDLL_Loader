@@ -23,6 +23,6 @@ Usage Example
 
 	std::cout << "Cmd.exe PID:  " << Pid << std::endl;
 
-	if (loader.InitDLL(Pid, "c://dll3.dll") == INIT_OK) {
+	if (loader.InitDLL(Pid, "c://someDllFile.dll") == INIT_OK) {
 		std::cout << "DLL Injected Succesfully!" << std::endl;
 	}
