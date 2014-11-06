@@ -1,23 +1,23 @@
 /* =========================================================
- * DLL_Loader.cpp											*
- * **********************************************************
- *															*
- * Class: CDLL_Loader										*
- *															*
- * Author:  Dan Revah										*
- *															*
- * Date:	25/11/2011 (DD/MM/YYYY)							*
- * Last Update: 4/12/2011									*
- * Version: 1.1												*	
- *															*
- * (-!-) User-mode root (DLL Hooking)						*
- * Information Sources:										*
- * http://www.codeproject.com/KB/threads/winspy.aspx		*
- *															*
- * (---) Update 1.1 (4/12/2011):							*
- * Added enum for errors and created more functions to		*
- * handle the class	like object-oriented class shoule be.	*
- * ======================================================== */
+ * DLL_Loader.h												
+ * *********************************************************
+ *															
+ * Class: CDLL_Loader										
+ *															
+ * Author:  Dan Revah										
+ *															
+ * Date:	25/11/2011 (DD/MM/YYYY)							
+ * Last Update: 4/12/2011									
+ * Version: 1.1													
+ *															
+ * (-!-) User-mode root (DLL Hooking)						
+ * Information Sources:										
+ * http://www.codeproject.com/KB/threads/winspy.aspx		
+ *															
+ * (---) Update 1.1 (4/12/2011):							
+ * Added enum for errors and created more functions to		
+ * handle the class	like object-oriented class shoule be.	
+ * ======================================================= */
 #include "DLL_Loader.h"
 #include <iostream>
 
