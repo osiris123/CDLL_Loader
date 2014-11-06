@@ -6,17 +6,9 @@
  *															
  * Author:  Dan Revah										
  *															
- * Date:	25/11/2011 (DD/MM/YYYY)							
- * Last Update: 4/12/2011									
- * Version: 1.1													
+ * Date:	25/11/2011 (DD/MM/YYYY)																		
  *															
  * (-!-) User-mode root (DLL Hooking)						
- * Information Sources:										
- * http://www.codeproject.com/KB/threads/winspy.aspx		
- *															
- * (---) Update 1.1 (4/12/2011):							
- * Added enum for errors and created more functions to		
- * handle the class	like object-oriented class shoule be.	
  * ======================================================= */
 #ifndef _DLL_LOADER_H_
 #define _DLL_LOADER_H_
